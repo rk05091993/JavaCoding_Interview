@@ -15,7 +15,7 @@ public class CheckMountainArray {
         }
        //2) Element must be increasing order!! not duplicate
             int i=0;
-       while (i+1<a.length && a[i]<a[i+1])
+       while (i+1<a.length && a[i]<a[i+1]) //here 1st condition we have written to protect 2nd condition to get array index out of bound exceptions
        {
            i++;
        }
